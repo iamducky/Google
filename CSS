@@ -1,0 +1,410 @@
+/*=== Sidebar ===*/
+/* submit */
+div.side .titlebox .usertext-body .md ol li a[href*="/googlepoems/submit"] {
+    background-position: -0px -119px;
+    width: 200px;
+    height: 40px;
+    z-index: 999
+    }
+div.side .titlebox .usertext-body .md ol li a:hover[href*="/googlepoems/submit"] {
+    background-position: -0px -171px;
+    width: 200px;
+    height: 40px;
+    z-index: 999
+    }
+div.side .titlebox .usertext-body .md a[href*="#btn"], .titlebox .usertext-body .md a[href*="/btn/"] {
+    display: inline-block;
+    margin: -2px 0px -4px 0px;
+    text-indent: -9999px;
+    background: url(%%sidebar-flairsheet%%) no-repeat
+    }
+
+/* Submit a link page changes */
+ul.tabmenu.formtab {
+    position: static;
+    font-size: large;
+    padding: 0px;
+    margin-right: 0px;
+    line-height: 13px
+    }
+ul.formtab li {
+    margin-right: 12px !important;
+    padding: 0px !important
+    }
+.tabmenu.formtab a {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    margin: 0px;
+    color: #03182f;
+    font-size: large;
+    padding: 0px;
+    }
+.tabmenu.formtab a:hover {
+    background: transparent;
+    color: #b6061d!important
+    }
+.tabmenu.formtab .selected a {
+    background: transparent;
+    color: #b6061d;
+    }
+.formtabs-content {
+    border-top: none
+    }
+
+div#link-desc.infobar, div#text-desc.infobar {
+   border: 1px solid #565656;
+   background-color: #fff;
+   font-weight: bold;
+   color: #444;
+    }
+.roundfield {
+   background-color: transparent;
+    }
+.roundfield.info-notice {
+   visibility: hidden;
+    }
+.panestack-title {
+   margin-bottom: 10px;
+    }
+#link-desc:after, #text-desc:after {
+    font-family: verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    display: block;
+    color: #444;
+    content: "Post can be removed without notice if deemed inappropriate for this subreddit.";
+    padding-top: 5px;
+    }
+
+/* Sidebar stuff */
+.side {
+    background: url(%%sidebar-background%%) repeat-y;
+    padding: 0px 10px 30px 12px;
+    margin: 0px;
+    position: static;
+    }
+div.side div.spacer div.titlebox, .spacer .titlebox, .sidecontentbox, .linkinfo {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 248px;
+    margin: 20px auto;
+    padding: 20px !important;
+    border: 1px solid #fff;
+    font-family: arial, helvetica, clean, sans-serif !important;
+    font-size: 11px !important;
+    background: #fff;
+    background: -moz-linear-gradient(top,#fff,#ebebeb);
+    background: -webkit-linear-gradient(top,#fff,#ebebeb);
+    background: -o-linear-gradient(top,#fff,#ebebeb);
+    background: -ms-linear-gradient(top,#fff,#ebebeb);
+    background: linear-gradient(top,#fff,#ebebeb)
+    }
+.icon-menu a {
+    background: transparent !important
+    }
+.thing .rank {
+    display: none
+    }
+.usertext-body ul li {
+    visibility: visible !important
+    }
+
+.titlebox .usertext-body .md ol {
+    list-style: none outside none
+    }
+.side .md > p + hr:before, .side .md > p + hr:after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden
+    }
+.side .md > p + hr:after {
+    clear: both
+    }
+.titlebox .bottom {
+    display: none !important
+    }
+/*******************h1 header*******************/
+body.res-nightmode div.titlebox .md h1, div.titlebox .md h1 {
+    color: #DBD8CD !important;
+    font-family: verdana, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    width: 280px;
+    padding-top: 1px;
+    padding-left: 15px;
+    position: relative;
+    left: -28px;
+    border: solid #2B2722;
+    border-width: 0px 0px 2px 1px;
+    overflow: visible;
+    background: #465769;
+    background: -moz-linear-gradient(top, #465769, #000f1f);
+    background: -webkit-linear-gradient(top, #465769, #000f1f);
+    background: -o-linear-gradient(top, #465769, #000f1f);
+    background: -ms-linear-gradient(top, #465769, #000f1f);
+    background: linear-gradient(top, #465769, #000f1f);
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px
+    }
+body.res-nightmode div.titlebox .md h2, div.titlebox .md h2 {
+    color: #fff !important;
+    background: #465769;
+    background: -moz-linear-gradient(top,#465769,#000f1f);
+    background: -webkit-linear-gradient(top,#465769,#000f1f);
+    background: -o-linear-gradient(top,#465769,#000f1f);
+    background: -ms-linear-gradient(top,#465769,#000f1f);
+    background: linear-gradient(top,#465769,#000f1f);
+    font-family: verdana, sans-serif;
+    font-size: small;
+    font-weight: normal;
+    text-align: center;
+    border-top: 0px solid #C4CACC;
+    border-bottom: 1px solid #c4cacc;
+    padding-bottom: 2px;
+    margin: 10px 0px -7px 0px;
+    text-shadow: 1px 1px 1px #484848;
+    }
+body.res-nightmode div.titlebox .md h3, div.titlebox .md h3 {
+    color: #000!important;
+    background: transparent;
+    font-family: verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0px;
+    margin: 10px 0px -7px 0px;
+    }
+.md > * {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*******contact the mods************/
+.spacer div.sidecontentbox a.helplink {
+    display: block;
+    float: none;
+    margin: -10px 0px 10px 0px; 
+    
+    background: url(%%sidebar-flairsheet%%) no-repeat -0px -56px;
+    width: 226px;
+    height: 26px;
+    text-indent: -9999px;
+    border: none
+    }
+/*******sidebar list stylings*****/
+div.usertext-body div.md {
+    font-size: 14px
+    }
+div.titlebox div.usertext-body div.md {
+    font-size: 12px
+    }
+.comment .score, .tagline {
+    font-size: 11px !important
+    }
+
+div.titlebox .md {
+    overflow: visible
+    }
+div.titlebox .md ul {
+    list-style-type: none
+    }
+div.titlebox .md li {
+    border-bottom: 1px solid #AAA;
+    margin-bottom: 10px
+    }
+.sidebox .spacer {
+    background: transparent
+    }
+
+
+/***********searchbox and stuff****************/
+#search input[type="text"] {
+    font-size: small;
+    width: 246px !important;
+    height: 32px !important;
+    margin-top: 5px !important;
+    margin-left: 25px;
+    overflow: visible;
+    padding: 0px 0px 0px 37px !important;
+    outline: none;
+    background: url(%%sidebar-flairsheet%%) transparent no-repeat -0px -0px !important;
+    border: none !important;
+    border-style: hidden;
+    color: #465769;
+    border-width: 0px
+    }
+input::-webkit-input-placeholder {
+    color: #fff
+    }
+input:-moz-placeholder {
+    color: #fff
+    }
+#searchexpando.infobar, #searchexpando {
+    width: 190px;
+    margin: 4px auto 0px;
+    padding: 5px 2px 0px 2px;
+    background: url(%%block%%) repeat-x #d0cdcb;
+    border: #a6a6a6 1px solid;
+    font-size: 11px;
+    color: #666 !important
+    }
+#searchexpando p {
+    display: none
+    }
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:before {
+    content: " "
+    }
+div.titlebox span.number:after {
+    content: " Prose Poets"
+    }
+.sidebox.create, .sidebox.submit {
+    display: none
+    }
+.sidecontentbox .title h1 {
+    display: none;
+    }
+
+/*****************login stuff*******************/
+.login-form-side input[type="text"], .login-form-side input[type="password"] {
+    width: 238px !important
+    }
+#login_login-main {
+    background-color: white !important;
+    padding: 15px;
+    margin: 30px auto 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 256px;
+    z-index: 99
+    }
+/*********************body stuff******************************/
+.content {
+    margin-top: 2px;
+    padding-top: 0px;
+    padding-right: 10px;
+    width: auto;
+    position: relative;
+    overflow: hidden
+    }
+
+/**************border and stuff around post**************************/
+div#siteTable div.thing[onclick="click_thing(this)"], .link {
+    border-bottom: 1px solid #efefef !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px !important;
+    background: url(%%small-square%%) transparent !important;
+    margin: 5px 5px;
+    padding: 5px
+    }
+/**************res thread highlight**********************/
+.keyHighlight {
+    background: url(%%res-triangle%%) 100% 50% no-repeat #F8F8FF !important;
+    outline: 0px !important;
+    border: 0px !important;
+    border-right: 1px solid #ebebeb!important;
+    }
+/****************post title colors******************************/
+.thing .title {
+    color: #001831!important;
+    /*font-weight: normal;
+    font-size: 14px*/
+    }
+.thing .title:visited {
+    color: #465769!important
+    }
+.thing .title.click {
+    color: #555 !important
+    }
+.thing .title:hover {
+    color: #96060f !important
+    }
+
+/*Ducky's stuff*/
+.btn, button, .button, input[type='submit']{ padding: 6px 15px; }
+.stylesheet-customize-container { width: 100%; }
+#subreddit_stylesheet { display: block; overflow: hidden;}
+.sheets { margin: 0;}
+#stylesheet_contents {
+padding-left: 5px;
+padding-top: 5px;
+background-color: white;
+color: #042eae;
+}
+
+/*Colors*/
+body { background-color: white; color: #333333 !important; }
+#sr-header-area{ background-color: transparent; border-bottom:none; }
+.sr-bar a { color: black!important; }
+#header { background-color: white; }
+#header-bottom-right { background: white; border-radius: 0px; }
+#header-bottom-right a { color: navy; border-radius: 0px; font: normal 14px/25px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;}
+.pagename a { color: black; font: normal 25px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;} 
+.author { color: navy; font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;} 
+
+/*Modified r/google tabs*/
+.tabmenu ul { width: 425px; height: 25px; }
+.tabmenu li { list-style-type: none; display: inline-block !important; margin: 0px; padding: 0px }
+.tabmenu li a { color: navy; font: normal 14px/25px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif; text-align: center; display: block; min-width: 25px; background: transparent; }
+.tabmenu li.selected a { background: transparent; line-height: 25px; border: none; }
+
+.fancy-toggle-button .remove {
+    background-image: none;
+    background-color: #DD513B;
+  border-radius: 0px !important;
+    
+}
+
+.fancy-toggle-button .add {
+    background-image: none;
+    background-color: #4D6277;
+	border-radius: 0px !important;
+
+}
+
+.RESshortcutside, .RESDashboardToggle  {
+    color: white;
+    background-image: none !important;
+    background-image: none;
+    background-color: #4D6277;
+    border-radius: 0px !important;
+    margin-left: 5px;
+    }
+
+.RESshortcutside:hover, .RESDashboardToggle :hover {
+    color: white;
+    background-image: none !important;
+    background-image: none;
+    background-color: #4D6277 !important;
+	border-radius: 0px !important;
+}
+
+.RESshortcutside.remove, .RESDashboardToggle.remove  {
+    color: white;
+    background-image: none !important;
+    background-image: none;
+    background-color: #DD513B;
+	border-radius: 0px !important;
+}
+
+.RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover  {
+    color: white;
+    background-image: none !important;
+    background-image: none;
+    background-color: #DD513B !important;
+	border-radius: 0px !important;
+}
